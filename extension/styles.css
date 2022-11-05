@@ -6,3 +6,6 @@ ytd-watch-metadata[modern-metapanel] #description.ytd-watch-metadata {
     border-radius: 0 !important;
     background: rgb(255 255 255 / 0%) !important;
 }
+ytd-watch-metadata[clickable-description][description-collapsed] #description.ytd-watch-metadata {
+    cursor: text !important;
+}
