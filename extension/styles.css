@@ -2,3 +2,7 @@
     color: #080808 !important;
     background-color: #c00 !important;
 }
+ytd-watch-metadata[modern-metapanel] #description.ytd-watch-metadata {
+    border-radius: 0;
+    background: rgb(255 255 255 / 0%);
+}
