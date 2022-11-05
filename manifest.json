@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Red Subsccribe Button",
+  "description": "Brings back the red subscribe button",
+  "version": "1.0",
+  "content_scripts": [       
+  {         
+  "matches": [ "https://*.youtube.com/*" ],         
+  "css": [ "styles.css" ]      
+  }   
+  ],
+  
+  "action": {
+    "default_popup": "test.html",
+    "default_icon": "subscribe.png"
+  }
+}
