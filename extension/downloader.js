@@ -1,0 +1,19 @@
+import ffmpeg from 'fluent-ffmpeg';
+
+export default async function mergeStreams(
+    videoFile: string,
+    audioFile: string,
+    outputFile: string,
+) {
+    return new Promise((resolve, reject) => {
+        ffmpeg(videoFile)
+            .input(audioFile)
+            .saveToFile(outputFile)
+            .on('error', (err) => {
+                reject(err);
+            })
+            .on('end', () => {
+                logger.info('Finished merging!');
+                resolve();
+            });
+    });
