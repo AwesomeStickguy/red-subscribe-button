@@ -1,19 +1,12 @@
-import ffmpeg from 'fluent-ffmpeg';
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Downloader</title>
+</head>
+<body>
+    <h1 class="heading">My Own YouTube Downloader !</h1>
+    <input class="URL-input" placeholder="Video URL">
+    <button class="convert-button">Convert</button>
+</body>
+</html>
 
-export default async function mergeStreams(
-    videoFile: string,
-    audioFile: string,
-    outputFile: string,
-) {
-    return new Promise((resolve, reject) => {
-        ffmpeg(videoFile)
-            .input(audioFile)
-            .saveToFile(outputFile)
-            .on('error', (err) => {
-                reject(err);
-            })
-            .on('end', () => {
-                logger.info('Finished merging!');
-                resolve();
-            });
-    });
