@@ -9,3 +9,7 @@ ytd-watch-metadata[modern-metapanel] #description.ytd-watch-metadata {
 ytd-watch-metadata[clickable-description][description-collapsed] #description.ytd-watch-metadata {
     cursor: text !important;
 }
+.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--filled {
+    color: #ffffff !important;
+    background-color: #c00 !important;
+}
