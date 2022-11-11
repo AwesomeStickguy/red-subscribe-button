@@ -1,15 +1,15 @@
 .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--filled {
-    color: #ffffff !important;
+    color: #fff !important;
     background-color: #c00 !important;
 }
-ytd-watch-metadata[modern-metapanel] #description.ytd-watch-metadata {
+.ytd-watch-metadata[modern-metapanel] #description.ytd-watch-metadata {
     border-radius: 0 !important;
     background: rgb(255 255 255 / 0%) !important;
 }
-ytd-watch-metadata[clickable-description][description-collapsed] #description.ytd-watch-metadata {
+.ytd-watch-metadata[clickable-description][description-collapsed] #description.ytd-watch-metadata {
     cursor: text !important;
 }
 .yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--filled {
-    color: #ffffff !important;
+    color: #fff !important;
     background-color: #c00 !important;
 }
