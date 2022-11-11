@@ -10,6 +10,6 @@ ytd-watch-metadata[clickable-description][description-collapsed] #description.yt
     cursor: text !important;
 }
 .yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--filled {
-    color: #ffffff !important;
+    color: #fff !important;
     background-color: #c00 !important;
 }
