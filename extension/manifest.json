@@ -10,14 +10,15 @@
   "css": [ "styles.css" ]
   }
   ],
-  "permissions" ["webRequest", "webRequestBlockig"],
-  "background" {
+  "permissions": ["webRequest", "declarativeNetRequest"],
+  "background.service_worker": {
     "scripts":
       ["background.js"]
-  }
+  },
 
   "action": {
     "default_popup": "popup.html",
     "default_icon": "subscribe.png"
   }
 }
+
